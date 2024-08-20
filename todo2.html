@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo2.css">
+    <script src="https://kit.fontawesome.com/d7a264bb35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.css" type="text/css">
+</head>
+<body dir="rtl">
+    <div class="container">
+        <div class="row">
+            <div class="intro col-12">
+                <h1> کارهای روزانه</h1>
+                <div>
+                    <div class="border1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="helpText col-12">
+                <p id="first"> کارهای خود را داخل ورودی تایپ کنید تا به لیست کارها اضافه شوند </p>
+                <p id="second"> بعد از انجام هر کار روی ان کلیک کنید</p>
+                <p id="third">برای حذف آنها روی  "x" کلیک کنید</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input id="userinput" type="text" placeholder="آیتم جدید" maxlength="27">
+                <button id="enter"> <i class="fas fa-pencil-alt"></i> </button>
+            </div>
+        </div>
+        <!-- empty list لیست خالی -->
+        <div class="row">
+            <div class="listitem col-12">
+                <ul class="col-12 offset-0 col-sm-8 offset-sm-2"></ul>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="todo2.js"></script>
+</body>
+</html>
